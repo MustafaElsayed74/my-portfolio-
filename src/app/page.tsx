@@ -22,7 +22,8 @@ import {
   Code2,
   Menu,
   X,
-  FolderGit2
+  FolderGit2,
+  User
 } from 'lucide-react';
 import { PORTFOLIO_DATA, Project } from '@/data/portfolioData';
 
@@ -731,6 +732,26 @@ export default function Home() {
           </div>
         </div>
       </footer>
+
+      {/* Sleek Minimalist Mobile Bottom Navigation Bar */}
+      <nav className="mobile-bottom-nav" aria-label="Mobile Bottom Navigation">
+        <a href="#about" className="mobile-bottom-nav-item">
+          <User size={18} />
+          <span>About</span>
+        </a>
+        <a href="#projects" className="mobile-bottom-nav-item">
+          <FolderGit2 size={18} />
+          <span>Projects</span>
+        </a>
+        <a href="#skills" className="mobile-bottom-nav-item">
+          <Cpu size={18} />
+          <span>Skills</span>
+        </a>
+        <a href="#contact" className="mobile-bottom-nav-item">
+          <Mail size={18} />
+          <span>Contact</span>
+        </a>
+      </nav>
 
       {/* Toast Notification */}
       {toastMessage && (
