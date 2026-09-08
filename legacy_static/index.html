@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mustafa Elsayed | Backend .NET Developer & Distributed Systems Engineer</title>
+  <meta name="description" content="Portfolio of Mustafa Elsayed Mustafa - Backend .NET Developer specializing in ASP.NET Core, Clean Architecture, Microservices, and Real-Time Systems." />
+  <meta name="keywords" content="Mustafa Elsayed, Backend Developer, .NET Developer, ASP.NET Core, C#, Microservices, Clean Architecture, Zagazig University, Cairo Egypt" />
+  <meta name="author" content="Mustafa Elsayed Mustafa" />
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Mustafa Elsayed | Backend .NET Developer" />
+  <meta property="og:description" content="Architecting resilient, production-ready web APIs, microservices, and real-time systems." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://github.com/MustafaElsayed74" />
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="dark-theme">
+  <!-- Top Ambient Glow -->
+  <div class="ambient-glow" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#" class="nav-brand" aria-label="Mustafa Elsayed Home">
+        <span class="brand-monogram">ME</span>
+        <span class="brand-name">Mustafa Elsayed</span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <div class="status-indicator" title="Available for backend engineering opportunities">
+          <span class="status-dot"></span>
+          <span class="status-text">Available</span>
+        </div>
+        <button id="themeToggle" class="icon-button" aria-label="Toggle theme" title="Toggle dark/light mode">
+          <svg class="sun-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container hero-container">
+        <div class="badge hero-badge">
+          <svg class="badge-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="16 18 22 12 16 6"></polyline>
+            <polyline points="8 6 2 12 8 18"></polyline>
+          </svg>
+          <span>Backend .NET Developer & Distributed Systems</span>
+        </div>
+
+        <h1 class="hero-title">Mustafa Elsayed Mustafa</h1>
+        
+        <p class="hero-subtitle">
+          Specializing in <strong>ASP.NET Core</strong>, <strong>Clean Architecture</strong>, and <strong>Dockerized Microservices</strong>. 
+          Bridging an Electronics & Communication Engineering background with enterprise software design to build scalable, resilient, and secure APIs.
+        </p>
+
+        <div class="hero-meta">
+          <div class="meta-item">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span>Cairo, Egypt</span>
+          </div>
+          <div class="meta-divider">•</div>
+          <div class="meta-item">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+            <span>53 Repositories on GitHub</span>
+          </div>
+          <div class="meta-divider">•</div>
+          <div class="meta-item">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+            <span>B.Sc. Eng @ Zagazig University</span>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            <span>Explore Projects</span>
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+          <a href="https://github.com/MustafaElsayed74" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+            <span>GitHub Profile</span>
+          </a>
+          <button class="btn btn-ghost copy-btn" data-copy="mustafaelsayed.dev@gmail.com" title="Copy email address to clipboard">
+            <svg class="copy-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+            <svg class="check-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span class="btn-copy-text">Copy Email</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Engineering DNA</span>
+          <h2 class="section-title">The Mindset Behind the Code</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="card about-card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            </div>
+            <h3 class="card-title">Defensive Security First</h3>
+            <p class="card-text">
+              Rooted in early penetration testing foundations (<em>TryHackMe Junior PenTester</em>), every API is architected with defensive discipline: strict rate limiting, time-bound token expiry, resource-level ownership checks, and FluentValidation data sanitization.
+            </p>
+          </div>
+
+          <div class="card about-card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+            </div>
+            <h3 class="card-title">Architectural Purism</h3>
+            <p class="card-text">
+              Committed to 4-layer <strong>Onion / Clean Architecture</strong>, decoupling core domain logic from data persistence and transport. Proficient in the Specification Pattern, Unit of Work, and explicit Dependency Injection lifetimes.
+            </p>
+          </div>
+
+          <div class="card about-card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+            </div>
+            <h3 class="card-title">Hardware Meets Cloud</h3>
+            <p class="card-text">
+              Studying <strong>Electronics & Communication Engineering</strong> at Zagazig University. Bridges physical hardware telemetry and IoT sensors with modern web infrastructure through high-speed <strong>SignalR WebSockets</strong>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Showcase</span>
+          <h2 class="section-title">Selected Projects & Systems</h2>
+          <p class="section-desc">Audited production and open-source systems spanning microservices, enterprise monoliths, and real-time platforms.</p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="filter-group">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="microservices">Microservices</button>
+          <button class="filter-btn" data-filter="enterprise">Enterprise .NET</button>
+          <button class="filter-btn" data-filter="realtime">IoT & Real-Time</button>
+          <button class="filter-btn" data-filter="fullstack">Full-Stack / Web</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projectsGrid">
+          
+          <!-- Project 1: Digital Wallet Microservices -->
+          <article class="card project-card" data-category="microservices">
+            <div class="project-header">
+              <div class="project-type-badge">Distributed Systems</div>
+              <a href="https://github.com/MustafaElsayed74/digital-wallet-microservices" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub Repository">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+            <h3 class="project-title">Digital Wallet Microservices</h3>
+            <p class="project-desc">
+              Containerized distributed financial service architecture separating Identity, Wallet operations, and Transaction logging. Orchestrated with Docker Compose and dedicated SQL Server database instances per bounded context.
+            </p>
+            <div class="project-highlights">
+              <span class="highlight-item">✓ Auth.API, Wallet.API, Transaction.API</span>
+              <span class="highlight-item">✓ Multi-container Docker Compose</span>
+              <span class="highlight-item">✓ Modern Visual Studio .slnx format</span>
+            </div>
+            <div class="tag-cloud">
+              <span class="tag">C#</span>
+              <span class="tag">ASP.NET Core</span>
+              <span class="tag">Docker Compose</span>
+              <span class="tag">SQL Server</span>
+              <span class="tag">Microservices</span>
+            </div>
+          </article>
+
+          <!-- Project 2: IoT Smart Factory -->
+          <article class="card project-card" data-category="realtime">
+            <div class="project-header">
+              <div class="project-type-badge">Graduation Project</div>
+              <a href="https://github.com/MustafaElsayed74/IoT-smart-factory" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub Repository">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+            <h3 class="project-title">IoT Smart Factory & Telemetry</h3>
+            <p class="project-desc">
+              Industrial IoT telemetry and production monitoring system. Streams high-throughput sensor telemetry from factory machines via SignalR WebSockets for live operator dashboard diagnostics.
+            </p>
+            <div class="project-highlights">
+              <span class="highlight-item">✓ SignalR WebSockets (FactoryHub, SensorHub)</span>
+              <span class="highlight-item">✓ Real-time machine status & telemetry ingestion</span>
+              <span class="highlight-item">✓ Electronics & Communications B.Sc. Capstone</span>
+            </div>
+            <div class="tag-cloud">
+              <span class="tag">ASP.NET Core</span>
+              <span class="tag">SignalR</span>
+              <span class="tag">WebSockets</span>
+              <span class="tag">IoT Telemetry</span>
+              <span class="tag">C#</span>
+            </div>
+          </article>
+
+          <!-- Project 3: Bookly.APIs -->
+          <article class="card project-card" data-category="enterprise">
+            <div class="project-header">
+              <div class="project-type-badge featured-badge">★ 4 Stars · 3 Forks</div>
+              <a href="https://github.com/MustafaElsayed74/Bookly.APIs" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub Repository">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+            <h3 class="project-title">Bookly — Library Management API</h3>
+            <p class="project-desc">
+              Textbook implementation of 4-layer Onion Architecture and the Specification Pattern. Features dynamic query composition (title, author, genre, stock availability), response caching, rate limiting, and book cover file storage.
+            </p>
+            <div class="project-highlights">
+              <span class="highlight-item">✓ Dynamic SpecificationEvaluator & Expression Trees</span>
+              <span class="highlight-item">✓ Unit of Work & Generic Repository Pattern</span>
+              <span class="highlight-item">✓ In-Memory Response Caching & Rate Limiting</span>
+            </div>
+            <div class="tag-cloud">
+              <span class="tag">ASP.NET Core</span>
+              <span class="tag">EF Core</span>
+              <span class="tag">Specification Pattern</span>
+              <span class="tag">JWT / RBAC</span>
+              <span class="tag">Caching</span>
+            </div>
+          </article>
+
+          <!-- Project 4: CareFlow Healthcare -->
+          <article class="card project-card" data-category="enterprise">
+            <div class="project-header">
+              <div class="project-type-badge">Enterprise Healthcare</div>
+              <a href="https://github.com/MustafaElsayed74/Smart-HealthCare-Management-System" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub Repository">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+            <h3 class="project-title">CareFlow — Smart Healthcare Platform</h3>
+            <p class="project-desc">
+              Comprehensive medical clinic API with 4 distinct solution projects (API, Core, Repository, Service), 17+ domain models, and 15+ specialized business services handling appointments, prescriptions, ratings, and Stripe billing.
+            </p>
+            <div class="project-highlights">
+              <span class="highlight-item">✓ Granular RBAC (Admin, Doctor, Patient)</span>
+              <span class="highlight-item">✓ Resource-level ownership access security</span>
+              <span class="highlight-item">✓ Soft delete patterns & automated audit trails</span>
+            </div>
+            <div class="tag-cloud">
+              <span class="tag">Clean Architecture</span>
+              <span class="tag">EF Core Code-First</span>
+              <span class="tag">Stripe Gateway</span>
+              <span class="tag">SQL Server</span>
+              <span class="tag">Audit Trails</span>
+            </div>
+          </article>
+
+          <!-- Project 5: E-Book Microservices -->
+          <article class="card project-card" data-category="microservices">
+            <div class="project-header">
+              <div class="project-type-badge">Microservices</div>
+              <a href="https://github.com/MustafaElsayed74/ebook-microservices" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub Repository">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+            <h3 class="project-title">E-Book Commerce Microservices</h3>
+            <p class="project-desc">
+              Modular e-book e-commerce platform splitting Catalog, Basket, and Ordering workflows into isolated autonomous services. Containerized with custom Dockerfile definitions and Docker Compose networking.
+            </p>
+            <div class="project-highlights">
+              <span class="highlight-item">✓ Catalog, Basket, and Order microservices</span>
+              <span class="highlight-item">✓ Independent data storage per boundary</span>
+              <span class="highlight-item">✓ Docker Compose multi-container mesh</span>
+            </div>
+            <div class="tag-cloud">
+              <span class="tag">.NET 8</span>
+              <span class="tag">Microservices</span>
+              <span class="tag">Docker</span>
+              <span class="tag">REST APIs</span>
+            </div>
+          </article>
+
+          <!-- Project 6: Bloomi Full Stack Platform -->
+          <article class="card project-card" data-category="fullstack">
+            <div class="project-header">
+              <div class="project-type-badge">Full Stack SPA</div>
+              <a href="https://github.com/MustafaElsayed74/bloomi-server" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub Repository">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+            <h3 class="project-title">Bloomi E-Commerce Platform</h3>
+            <p class="project-desc">
+              Full-stack e-commerce system pairing an ASP.NET Core Web API with an Angular single-page application. Features complete authentication lifecycle: JWT tokens, email verification with token expiry, password reset, and Stripe Checkout.
+            </p>
+            <div class="project-highlights">
+              <span class="highlight-item">✓ Tokenized email verification & password recovery</span>
+              <span class="highlight-item">✓ Angular SPA with responsive catalog & cart</span>
+              <span class="highlight-item">✓ Stripe Checkout webhook handling</span>
+            </div>
+            <div class="tag-cloud">
+              <span class="tag">ASP.NET Core</span>
+              <span class="tag">Angular</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">Stripe</span>
+              <span class="tag">Identity</span>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Live Vercel Deployments Banner -->
+        <div class="live-apps-card card">
+          <div class="live-apps-info">
+            <div class="card-icon" style="margin-bottom: 0;">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon><line x1="12" y1="22" x2="12" y2="15.5"></line><polyline points="22 8.5 12 15.5 2 8.5"></polyline><polyline points="2 15.5 12 8.5 22 15.5"></polyline><line x1="12" y1="2" x2="12" y2="8.5"></line></svg>
+            </div>
+            <div>
+              <h4 class="live-apps-title">Deployed Web Applications on Vercel</h4>
+              <p class="live-apps-sub">Active web tools and user interfaces built and hosted live:</p>
+            </div>
+          </div>
+          <div class="live-apps-links">
+            <a href="https://azkar-feeling.vercel.app" target="_blank" rel="noopener noreferrer" class="pill-link">
+              <span>Azkar Feeling</span>
+              <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+            <a href="https://cv-generator-five-kappa.vercel.app" target="_blank" rel="noopener noreferrer" class="pill-link">
+              <span>CV Generator</span>
+              <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+            <a href="https://gallery-betak.vercel.app" target="_blank" rel="noopener noreferrer" class="pill-link">
+              <span>Gallery Betak</span>
+              <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+            <a href="https://we-watch-murex.vercel.app" target="_blank" rel="noopener noreferrer" class="pill-link">
+              <span>WEWatch</span>
+              <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section id="experience" class="section experience-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Career Journey</span>
+          <h2 class="section-title">Experience & Education</h2>
+        </div>
+
+        <div class="timeline">
+
+          <!-- Experience 1 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-title">Backend Developer</h3>
+                  <div class="timeline-company">Huma Volve</div>
+                </div>
+                <div class="timeline-date">Feb 2026 – Mar 2026</div>
+              </div>
+              <p class="timeline-text">
+                Architected and maintained ASP.NET Core RESTful APIs for the <em>MedLink Healthcare Management System</em>, implementing business logic for clinic-doctor connectivity workflows. Developed reservation lifecycles and trip scheduling modules for the <em>Online Travel Booking System</em>. Enforced Onion Architecture conventions across team sprints.
+              </p>
+              <div class="tag-cloud">
+                <span class="tag">ASP.NET Core</span>
+                <span class="tag">Onion Architecture</span>
+                <span class="tag">Agile / Scrum</span>
+                <span class="tag">RESTful APIs</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 2 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-title">Coding Instructor</h3>
+                  <div class="timeline-company">iSchool – DEMI (Kids Program)</div>
+                </div>
+                <div class="timeline-date">Feb 2025 – Present</div>
+              </div>
+              <p class="timeline-text">
+                Teaching computer science foundations, algorithms, and computational problem-solving to Grade 5 and Grade 6 students through the DEMI scholarship program. Fostering technical clarity, pedagogical patience, and analytical thinking from an early age.
+              </p>
+              <div class="tag-cloud">
+                <span class="tag">Mentorship</span>
+                <span class="tag">Algorithms</span>
+                <span class="tag">Computational Thinking</span>
+                <span class="tag">Instruction</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 3 -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-title">Full Stack .NET Development Intern</h3>
+                  <div class="timeline-company">DEPI – Digital Egypt Pioneers Initiative</div>
+                </div>
+                <div class="timeline-date">Oct 2023 – Mar 2024</div>
+              </div>
+              <p class="timeline-text">
+                Underwent intensive enterprise software development training funded by the Ministry of Communications. Built scalable RESTful APIs with 4-layer Onion Architecture, designed normalized SQL Server schemas via EF Core Code-First migrations, optimized LINQ queries, and documented 30+ endpoints tested with Postman and Swagger.
+              </p>
+              <div class="tag-cloud">
+                <span class="tag">DEPI Scholarship</span>
+                <span class="tag">EF Core Code-First</span>
+                <span class="tag">Swagger / OpenAPI</span>
+                <span class="tag">AutoMapper</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education -->
+          <div class="timeline-item">
+            <div class="timeline-marker education-marker"></div>
+            <div class="timeline-content card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-title">Bachelor of Engineering — Electronics & Communications</h3>
+                  <div class="timeline-company">Zagazig University</div>
+                </div>
+                <div class="timeline-date">Sep 2021 – Jul 2026</div>
+              </div>
+              <p class="timeline-text">
+                Rigorous 5-year engineering curriculum covering digital signal processing, computer networks, microcontrollers, embedded systems, and telecommunications. Graduation capstone: <em>IoT Smart Factory Telemetry Monitoring Platform</em>.
+              </p>
+              <div class="tag-cloud">
+                <span class="tag">Electronics</span>
+                <span class="tag">Telecommunications</span>
+                <span class="tag">Signal Processing</span>
+                <span class="tag">Embedded & IoT</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Matrix -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Toolkit</span>
+          <h2 class="section-title">Technical Skills Matrix</h2>
+        </div>
+
+        <div class="skills-grid">
+          
+          <div class="card skill-card">
+            <div class="skill-card-header">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              <h3 class="skill-category">Core Backend Stack</h3>
+            </div>
+            <ul class="skill-list">
+              <li>C# (Modern .NET 6/7/8)</li>
+              <li>ASP.NET Core Web API</li>
+              <li>Entity Framework Core (EF Core)</li>
+              <li>LINQ & Query Optimization</li>
+              <li>SignalR (WebSockets Telemetry)</li>
+              <li>Java & Spring Boot (Heritage)</li>
+            </ul>
+          </div>
+
+          <div class="card skill-card">
+            <div class="skill-card-header">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+              <h3 class="skill-category">Architecture & Patterns</h3>
+            </div>
+            <ul class="skill-list">
+              <li>Onion & Clean Architecture</li>
+              <li>Microservices & Bounded Contexts</li>
+              <li>Specification Pattern</li>
+              <li>Unit of Work & Repository Pattern</li>
+              <li>SOLID Principles & SRP</li>
+              <li>Dependency Injection Lifecycles</li>
+            </ul>
+          </div>
+
+          <div class="card skill-card">
+            <div class="skill-card-header">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+              <h3 class="skill-category">Security & Identity</h3>
+            </div>
+            <ul class="skill-list">
+              <li>JWT Authentication & Refresh Tokens</li>
+              <li>Role-Based Access Control (RBAC)</li>
+              <li>Resource-Level Security (IDOR Guard)</li>
+              <li>ASP.NET Identity & Email Tokens</li>
+              <li>OAuth2 & Keycloak IAM</li>
+              <li>Penetration Testing Mindset (THM)</li>
+            </ul>
+          </div>
+
+          <div class="card skill-card">
+            <div class="skill-card-header">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+              <h3 class="skill-category">Databases & Quality</h3>
+            </div>
+            <ul class="skill-list">
+              <li>Microsoft SQL Server & T-SQL</li>
+              <li>PostgreSQL & MySQL</li>
+              <li>EF Core Code-First Migrations</li>
+              <li>FluentValidation & Global Middleware</li>
+              <li>In-Memory & Response Caching</li>
+              <li>Rate Limiting Middleware</li>
+            </ul>
+          </div>
+
+          <div class="card skill-card">
+            <div class="skill-card-header">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
+              <h3 class="skill-category">Integrations & DevOps</h3>
+            </div>
+            <ul class="skill-list">
+              <li>Stripe Payment API & Webhooks</li>
+              <li>Docker & Docker Compose</li>
+              <li>Swagger / OpenAPI 3.0</li>
+              <li>Postman End-to-End API Testing</li>
+              <li>SMTP Email Services & File Uploads</li>
+              <li>Git, GitHub (53 Repos), VS 2022</li>
+            </ul>
+          </div>
+
+          <div class="card skill-card">
+            <div class="skill-card-header">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+              <h3 class="skill-category">Frontend Support</h3>
+            </div>
+            <ul class="skill-list">
+              <li>Angular Framework</li>
+              <li>TypeScript & JavaScript (ES6+)</li>
+              <li>HTML5, Modern CSS3, Flex/Grid</li>
+              <li>Bootstrap & Responsive UI</li>
+              <li>REST API Client Consumption</li>
+              <li>Vercel Cloud Deployments</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Connect Section -->
+    <section id="contact" class="section contact-section">
+      <div class="container contact-container">
+        <div class="section-header text-center">
+          <span class="section-tag">Let's Build</span>
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-desc">Open for backend engineering roles, microservice architectures, and technical collaborations.</p>
+        </div>
+
+        <div class="contact-card-wrapper">
+          <div class="card contact-card">
+            
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">Email</span>
+                <a href="mailto:mustafaelsayed.dev@gmail.com" class="contact-value">mustafaelsayed.dev@gmail.com</a>
+              </div>
+              <button class="icon-copy-btn copy-btn" data-copy="mustafaelsayed.dev@gmail.com" title="Copy email address">
+                <svg class="copy-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                <svg class="check-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </button>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">Phone / WhatsApp</span>
+                <a href="tel:+201273064903" class="contact-value">+20 127 306 4903</a>
+              </div>
+              <button class="icon-copy-btn copy-btn" data-copy="+201273064903" title="Copy phone number">
+                <svg class="copy-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                <svg class="check-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </button>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">Location</span>
+                <span class="contact-value">Cairo, Egypt (UTC+2 / EET)</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="social-links-bar">
+            <a href="https://github.com/MustafaElsayed74" target="_blank" rel="noopener noreferrer" class="social-link-btn">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+              </svg>
+              <span>github.com/MustafaElsayed74</span>
+            </a>
+            
+            <a href="https://linkedin.com/in/mustafaelsayed72" target="_blank" rel="noopener noreferrer" class="social-link-btn">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+              <span>linkedin.com/in/mustafaelsayed72</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Minimal Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <p>© 2026 Mustafa Elsayed Mustafa. Built with precision and clean architecture principles.</p>
+      </div>
+      <div class="footer-right">
+        <a href="#about">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div id="copyToast" class="toast" role="status" aria-live="polite">
+    Copied to clipboard!
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
