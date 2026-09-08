@@ -323,21 +323,23 @@ export default function Home() {
 
             {/* Quick Actions */}
             <div className="hero-cta-group">
-              <a href="#projects" className="btn btn-accent">
+              <a href="#projects" className="btn btn-accent btn-primary-cta">
                 <span>Explore Audited Systems</span>
                 <ArrowUpRight size={15} />
               </a>
-              <button 
-                onClick={() => handleCopy(PORTFOLIO_DATA.personal.email, 'Email')}
-                className="btn btn-outline"
-              >
-                <Copy size={14} />
-                <span>Copy Email</span>
-              </button>
-              <a href="#terminal" className="btn btn-terminal">
-                <Terminal size={14} />
-                <span>Launch CLI Console</span>
-              </a>
+              <div className="hero-cta-secondary-row">
+                <button 
+                  onClick={() => handleCopy(PORTFOLIO_DATA.personal.email, 'Email')}
+                  className="btn btn-outline"
+                >
+                  <Copy size={14} />
+                  <span>Copy Email</span>
+                </button>
+                <a href="#terminal" className="btn btn-terminal">
+                  <Terminal size={14} />
+                  <span>CLI Console</span>
+                </a>
+              </div>
             </div>
 
             {/* 4. Creative Feature: Interactive Architecture CLI Console */}
@@ -729,34 +731,6 @@ export default function Home() {
           </div>
         </div>
       </footer>
-
-      {/* 11. Mobile Floating Quick Action Dock */}
-      <aside className="mobile-floating-dock" aria-label="Quick mobile navigation">
-        <a href="#projects" className="dock-item" title="Jump to Projects">
-          <FolderGit2 size={17} />
-          <span>Projects</span>
-        </a>
-        <a href="#terminal" className="dock-item" title="Open CLI Console">
-          <Terminal size={17} />
-          <span>CLI</span>
-        </a>
-        <button 
-          onClick={() => handleCopy(PORTFOLIO_DATA.personal.email, 'Email')} 
-          className="dock-item"
-          title="Copy Email"
-        >
-          <Mail size={17} />
-          <span>Email</span>
-        </button>
-        <a href={`tel:${PORTFOLIO_DATA.personal.phone.replace(/\s+/g, '')}`} className="dock-item" title="Call directly">
-          <Phone size={17} />
-          <span>Call</span>
-        </a>
-        <button onClick={toggleTheme} className="dock-item" title="Toggle Theme">
-          {theme === 'dark' ? <Sun size={17} /> : <Moon size={17} />}
-          <span>Theme</span>
-        </button>
-      </aside>
 
       {/* Toast Notification */}
       {toastMessage && (
